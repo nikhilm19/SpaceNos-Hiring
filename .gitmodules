@@ -1,0 +1,3 @@
+[submodule "src/components/VoiceMessage/Recorderjs"]
+	path = src/components/VoiceMessage/Recorderjs
+	url = https://github.com/mattdiamond/Recorderjs.git
