@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./index.css";
-import Recorder from "./Recorderjs/src/";
+import Recorder from "./Recorderjs/src";
 import { app, db, storage } from "../Firebase";
 
 import { makeStyles } from "@material-ui/core/styles";
