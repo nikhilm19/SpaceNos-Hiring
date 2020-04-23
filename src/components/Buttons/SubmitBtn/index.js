@@ -9,7 +9,7 @@ import Button from "@material-ui/core/Button"
 import './index.css'
 import { useStyles } from "@material-ui/pickers/views/Calendar/SlideTransition";
 
-const styles = makeStyles({
+const styles = makeStyles((theme)=>({
     root: {
       border: 0,
   
@@ -20,6 +20,18 @@ const styles = makeStyles({
       backgroundColor:"#0e3063",
       width: "30%",
       height:"50px",
+      [theme.breakpoints.down('sm')]: {
+        width: "100%",
+        height:"50px",
+    
+        
+        "& .MuiListItemAvatar-root": {
+          color:"red",
+          backgroundColor:"red",
+          display:"none"
+        },
+      }
+  
     },
     multiline:{
       color: "black",
@@ -30,7 +42,8 @@ const styles = makeStyles({
     "& .MuiOutlinedInput-root": {
       borderRadius: "50px",
     },
-  });
+
+      }) );
   
 export default function SubmitButton() {
     const classes = styles();

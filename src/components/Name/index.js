@@ -14,7 +14,8 @@ import { withStyles } from '@material-ui/core/styles';
 import blue from '@material-ui/core/colors/blue';
 
 
-const styles = {
+
+const styles = theme => ({
   root: {
    
     border: 0,
@@ -25,11 +26,14 @@ const styles = {
     '& .MuiOutlinedInput-root':{
       borderRadius: 25  ,
   
-    }
+    },
+    [theme.breakpoints.down('sm')]: {
+      
+    },
     
   },
   
-};
+});
 
 function Name(props) {
   const { classes } = props;

@@ -5,7 +5,7 @@ function Header(props) {
   return (
 
     <div className="appointment-header">
-        <h1>Book an Appointment</h1>
+        <h2>Book an Appointment</h2>
     </div>
   );
 }

@@ -18,6 +18,18 @@
   }
 }
 
+@media screen and (max-width:600px) {
+  .App {
+    text-align: center;
+    width: 95%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

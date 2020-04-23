@@ -224,7 +224,7 @@ class VoiceMessage extends React.Component {
       <div className="voice-message-container">
         <Button
 
-        style={{width:"30%",height:"50px",backgroundColor:"#4063ff"}}
+        style={{backgroundColor:"#4063ff"} }
           className="voice-message-btn--start"
           variant="contained"
           color="secondary"
