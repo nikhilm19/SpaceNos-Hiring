@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/SpaceNos-Hiring/static/css/main.0affa77d.chunk.css",
+    "main.js": "/SpaceNos-Hiring/static/js/main.4135458f.chunk.js",
+    "main.js.map": "/SpaceNos-Hiring/static/js/main.4135458f.chunk.js.map",
+    "runtime-main.js": "/SpaceNos-Hiring/static/js/runtime-main.9364ee98.js",
+    "runtime-main.js.map": "/SpaceNos-Hiring/static/js/runtime-main.9364ee98.js.map",
+    "static/js/2.11669f40.chunk.js": "/SpaceNos-Hiring/static/js/2.11669f40.chunk.js",
+    "static/js/2.11669f40.chunk.js.map": "/SpaceNos-Hiring/static/js/2.11669f40.chunk.js.map",
+    "index.html": "/SpaceNos-Hiring/index.html",
+    "precache-manifest.01b11199c4686d5fe86ee7d19ffb74b7.js": "/SpaceNos-Hiring/precache-manifest.01b11199c4686d5fe86ee7d19ffb74b7.js",
+    "service-worker.js": "/SpaceNos-Hiring/service-worker.js",
+    "static/css/main.0affa77d.chunk.css.map": "/SpaceNos-Hiring/static/css/main.0affa77d.chunk.css.map",
+    "static/js/2.11669f40.chunk.js.LICENSE.txt": "/SpaceNos-Hiring/static/js/2.11669f40.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/SpaceNos-Hiring/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9364ee98.js",
+    "static/js/2.11669f40.chunk.js",
+    "static/css/main.0affa77d.chunk.css",
+    "static/js/main.4135458f.chunk.js"
+  ]
+}
